@@ -1,0 +1,13 @@
+com\example\Veterinaria\dto\MascotaResponseDTO$MascotaResponseDTOBuilder.class
+com\example\Veterinaria\Entity\Mascota.class
+com\example\Veterinaria\Application.class
+com\example\Veterinaria\dto\MascotaRequestDTO$MascotaRequestDTOBuilder.class
+com\example\Veterinaria\Configuration\SwaggerConfiguration.class
+com\example\Veterinaria\Services\MascotaService.class
+com\example\Veterinaria\Services\MascotaServicesImpl.class
+com\example\Veterinaria\Entity\Mascota$MascotaBuilder.class
+com\example\Veterinaria\Repository\MascotaRepository.class
+com\example\Veterinaria\dto\MascotaResponseDTO.class
+com\example\Veterinaria\mapper\MascotaMapper.class
+com\example\Veterinaria\dto\MascotaRequestDTO.class
+com\example\Veterinaria\Controller\MascotaController.class

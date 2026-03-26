@@ -1,12 +1,8 @@
-FROM eclipse-temurin:21-jdk
+FROM amazoncorretto:21-alpine-jdk
 
-WORKDIR /app
 
-COPY .. .
 
-RUN chmod +x mvnw
-RUN ./mvnw clean package -DskipTests
-RUN cp target/*.jar app.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar /api-v1.jar
 
 
 ENTRYPOINT ["java","-jar","app.jar"]
