@@ -1,5 +1,12 @@
 FROM eclipse-temurin:21-jdk
+
 WORKDIR /app
-COPY Veterinaria/ .
+
+COPY .. .
+
+RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
-CMD ["sh", "-c", "java -jar target/*.jar"]
+RUN cp target/*.jar app.jar
+
+
+ENTRYPOINT ["java","-jar","app.jar"]
